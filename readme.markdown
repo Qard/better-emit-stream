@@ -1,8 +1,10 @@
-# emit-stream
+# better-emit-stream
 
-turn event emitters into streams and streams into event emitters
+Turn event emitters into streams and streams into event emitters.
 
-[![build status](https://secure.travis-ci.org/substack/emit-stream.png)](http://travis-ci.org/substack/emit-stream)
+This is a fork of the awesome emit-stream module from [substack](http://github.com/substack). It makes it bi-directional, so you can convert streams/emitters which you can read from OR write to.
+
+[![build status](https://secure.travis-ci.org/qard/better-emit-stream.png)](http://travis-ci.org/qard/better-emit-stream)
 
 ![emit stream explained](http://substack.net/images/emit_stream.gif)
 

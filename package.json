@@ -1,38 +1,42 @@
 {
-    "name" : "emit-stream",
-    "version" : "0.1.0",
-    "description" : "turn event emitters into streams and streams into event emitters",
-    "main" : "index.js",
-    "directories" : {
-        "example" : "example",
-        "test" : "test"
-    },
-    "dependencies" : {
-        "through" : "~0.1.4"
-    },
-    "devDependencies" : {
-        "tap" : "~0.3.0",
-        "JSONStream" : "~0.3.1"
-    },
-    "scripts" : {
-        "test" : "tap test/*.js"
-    },
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/substack/emit-stream.git"
-    },
-    "homepage" : "https://github.com/substack/emit-stream",
-    "keywords" : [
-        "emit",
-        "event",
-        "emitter",
-        "EventEmitter",
-        "stream"
-    ],
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    },
-    "license" : "MIT"
+  "name" : "better-emit-stream",
+  "version" : "0.0.1",
+  "description" : "turn event emitters into streams and streams into event emitters",
+  "main" : "index.js",
+  "directories" : {
+    "test" : "test"
+  },
+  "dependencies" : {
+    "through" : "~0.1.4"
+  },
+  "devDependencies" : {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts" : {
+    "test": "mocha -r should -G -R spec"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/qard/better-emit-stream.git"
+  },
+  "homepage" : "https://github.com/qard/better-emit-stream",
+  "keywords" : [
+    "emit",
+    "event",
+    "emitter",
+    "EventEmitter",
+    "stream"
+  ],
+  "author" : {
+    "name" : "James Halliday",
+    "email" : "mail@substack.net",
+    "url" : "http://substack.net"
+  },
+  "contributors": [{
+    "name": "Stephen Belanger",
+    "email": "admin@stephenbelanger.com",
+    "url": "http://stephenbelanger.com"
+  }],
+  "license" : "MIT"
 }
